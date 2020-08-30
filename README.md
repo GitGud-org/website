@@ -1,1 +1,1 @@
-# website for GitGud
+# Website for GitGud
