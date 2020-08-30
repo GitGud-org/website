@@ -2,6 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://gitgud-org.github.io/",
   "dependencies": {
     "@primer/octicons-react": "^10.1.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -12,6 +13,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
