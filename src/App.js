@@ -1,22 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import GitGud from './GitGud.jpg';
 import './App.css';
+import {LogoGithubIcon} from '@primer/octicons-react'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={GitGud} className="App-image" alt="" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          A better git experience.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://github.com/GitGud-org/GitGud"
         >
-          Learn React
+          <LogoGithubIcon size={16} />
         </a>
       </header>
     </div>
